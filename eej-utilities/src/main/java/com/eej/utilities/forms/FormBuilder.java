@@ -4,7 +4,7 @@
 package com.eej.utilities.forms;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public interface FormBuilder {

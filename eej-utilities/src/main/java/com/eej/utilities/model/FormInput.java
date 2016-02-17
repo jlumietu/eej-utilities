@@ -9,7 +9,7 @@ import java.util.List;
 import com.eej.utilities.ApplicationVersion;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public class FormInput implements Serializable {

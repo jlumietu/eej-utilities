@@ -8,7 +8,7 @@ import java.io.Serializable;
 /**
  * Representa elementos que se incluyen dentro del propio HTML, 
  * 
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public interface HtmlEmbeddable extends Serializable {

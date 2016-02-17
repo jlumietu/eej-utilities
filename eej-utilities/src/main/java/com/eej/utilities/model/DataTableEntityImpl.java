@@ -8,7 +8,7 @@ import java.io.Serializable;
 import com.eej.utilities.ApplicationVersion;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public class DataTableEntityImpl implements Serializable, DataTableEntity{

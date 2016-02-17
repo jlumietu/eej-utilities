@@ -10,7 +10,7 @@ import java.util.Map;
 import com.eej.utilities.ApplicationVersion;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public abstract class FormFieldAbstractImpl extends FormElementAbstractImpl implements FormField {

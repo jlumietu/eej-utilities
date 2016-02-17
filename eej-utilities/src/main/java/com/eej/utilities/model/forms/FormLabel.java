@@ -6,7 +6,7 @@ package com.eej.utilities.model.forms;
 import com.eej.utilities.ApplicationVersion;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public class FormLabel extends HtmlElementAbstractImpl implements Label {

@@ -9,7 +9,7 @@ import java.util.Map;
 import com.eej.utilities.ApplicationVersion;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public abstract class HtmlElementAbstractImpl implements HtmlElement {

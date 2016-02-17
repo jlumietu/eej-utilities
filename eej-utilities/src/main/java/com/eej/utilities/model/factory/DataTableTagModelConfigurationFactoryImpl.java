@@ -11,7 +11,7 @@ import org.apache.log4j.Logger;
 import com.eej.utilities.model.DataTableTagModelConfiguration;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public class DataTableTagModelConfigurationFactoryImpl implements DataTableTagModelConfigurationFactory {

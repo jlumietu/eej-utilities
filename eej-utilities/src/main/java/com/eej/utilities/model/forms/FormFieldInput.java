@@ -6,7 +6,7 @@ package com.eej.utilities.model.forms;
 import com.eej.utilities.ApplicationVersion;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public class FormFieldInput extends FormFieldAbstractImpl implements FormField {

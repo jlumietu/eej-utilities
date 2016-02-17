@@ -12,7 +12,7 @@ import org.apache.log4j.Logger;
 import com.eej.utilities.model.DataTablePaginationRequest;
 
 /**
- * @author doibalmi
+ * @author jlumietu
  *
  */
 public class DataTablePaginationRequestBuilderImpl implements

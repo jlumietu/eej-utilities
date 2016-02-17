@@ -20,7 +20,7 @@ import com.eej.utilities.annotation.DataTableLinkParam;
 import com.eej.utilities.annotation.DataTableRowLink;
 
 /**
- * @author doibalmi
+ * @author jlumietu
  *
  */
 public class DataTableCollectionContainerImpl implements DataTableCollectionContainer {

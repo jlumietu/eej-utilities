@@ -9,7 +9,7 @@ import java.util.List;
 import com.eej.utilities.model.DataTablePaginationRequest;
 
 /**
- * @author doibalmi
+ * @author jlumietu
  *
  */
 public interface SourceData {

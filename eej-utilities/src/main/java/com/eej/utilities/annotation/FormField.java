@@ -4,7 +4,7 @@
 package com.eej.utilities.annotation;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public @interface FormField {

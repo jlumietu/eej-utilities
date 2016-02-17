@@ -11,7 +11,7 @@ import java.util.Set;
 
 
 /**
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public interface DateUtil {

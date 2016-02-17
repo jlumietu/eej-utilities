@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @author doibalmi
+ * @author jlumietu
  *
  */
 public interface DataBaseResultCollection extends Serializable{

@@ -9,7 +9,7 @@ import java.util.List;
 import com.eej.utilities.ApplicationVersion;
 
 /**
- * @author doibalmi
+ * @author jlumietu
  *
  */
 public abstract class AbstractDataBaseResultCollection implements

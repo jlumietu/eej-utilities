@@ -12,7 +12,7 @@ import com.eej.utilities.model.DataTablePaginationRequest;
 import com.eej.utilities.model.DefaultDataBaseResultCollection;
 
 /**
- * @author doibalmi
+ * @author jlumietu
  *
  */
 public class DataTableBusinessEngineBaseImpl implements DataTableBusinessEngine {

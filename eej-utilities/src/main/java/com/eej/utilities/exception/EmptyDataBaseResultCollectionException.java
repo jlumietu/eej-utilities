@@ -6,7 +6,7 @@ package com.eej.utilities.exception;
 import com.eej.utilities.ApplicationVersion;
 
 /**
- * @author doibalmi
+ * @author jlumietu
  *
  */
 public class EmptyDataBaseResultCollectionException extends Exception {

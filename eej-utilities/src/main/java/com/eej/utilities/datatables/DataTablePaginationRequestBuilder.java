@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import com.eej.utilities.model.DataTablePaginationRequest;
 
 /**
- * @author doibalmi
+ * @author jlumietu
  *
  */
 public interface DataTablePaginationRequestBuilder {

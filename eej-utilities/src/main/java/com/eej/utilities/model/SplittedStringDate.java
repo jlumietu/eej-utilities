@@ -8,7 +8,7 @@ import java.io.Serializable;
 import com.eej.utilities.ApplicationVersion;
 
 /**
- * @author doibalmi
+ * @author jlumietu
  *
  */
 public class SplittedStringDate implements Serializable {

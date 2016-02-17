@@ -14,7 +14,7 @@ import com.eej.utilities.model.DataTablePaginationRequest;
 import com.eej.utilities.model.DefaultDataBaseResultCollection;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public class DataTableBusinessEngineMultipleDataSourcesImpl extends

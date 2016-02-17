@@ -4,7 +4,7 @@
 package com.eej.utilities.model.forms;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public interface Label extends HtmlElement {

@@ -8,7 +8,7 @@ import java.util.List;
 import com.eej.utilities.ApplicationVersion;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu
  *
  */
 public abstract class FormInputSelect extends FormInput {
