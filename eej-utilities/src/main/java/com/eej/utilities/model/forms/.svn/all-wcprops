@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/338/trunk/eej-utilities/src/main/java/com/eej/utilities/model/forms
+END
+FormFieldType.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/338/trunk/eej-utilities/src/main/java/com/eej/utilities/model/forms/FormFieldType.java
+END
+FormLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/338/trunk/eej-utilities/src/main/java/com/eej/utilities/model/forms/FormLabel.java
+END
+FormElementAbstractImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/338/trunk/eej-utilities/src/main/java/com/eej/utilities/model/forms/FormElementAbstractImpl.java
+END
+FormElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/338/trunk/eej-utilities/src/main/java/com/eej/utilities/model/forms/FormElement.java
+END
+FormFieldAbstractImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/338/trunk/eej-utilities/src/main/java/com/eej/utilities/model/forms/FormFieldAbstractImpl.java
+END
+FormField.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/338/trunk/eej-utilities/src/main/java/com/eej/utilities/model/forms/FormField.java
+END
+Form.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/338/trunk/eej-utilities/src/main/java/com/eej/utilities/model/forms/Form.java
+END

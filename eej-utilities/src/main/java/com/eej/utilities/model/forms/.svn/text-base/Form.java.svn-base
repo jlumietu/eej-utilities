@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package com.eej.utilities.model.forms;
+
+import java.io.Serializable;
+
+/**
+ * @author DOIBALMI
+ *
+ */
+public interface Form extends FormElement, Serializable {
+	
+	abstract String getAction();
+	
+	abstract void setAction(String action);
+
+}

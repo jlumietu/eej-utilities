@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package com.eej.utilities.annotation;
+
+/**
+ * @author DOIBALMI
+ *
+ */
+public @interface Form {
+	
+	public String formName() default "";
+	
+	public String formId() default"" ; 
+
+	public enum FormType{
+		
+		WWW_URL_ENCODED("application/x-www-form-urlencoded"),
+		MULTIPART("multipart/form-data");
+		
+		private String type;
+		
+		private FormType(String type){
+			this.type = type;
+		}
+
+		/**
+		 * @return the type
+		 */
+		public String getType() {
+			return type;
+		}
+
+		/**
+		 * @param type the type to set
+		 */
+		public void setType(String type) {
+			this.type = type;
+		}
+		
+	}
+	
+}
