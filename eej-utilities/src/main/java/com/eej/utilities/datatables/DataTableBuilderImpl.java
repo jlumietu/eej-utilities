@@ -93,7 +93,7 @@ public class DataTableBuilderImpl implements DataTableBuilder {
 				tableHeader.setSortable(tableColumn.sortable());
 				tableHeader.setWidth(tableColumn.width());
 				// Para evitar que casque al introducir cabeceras si los campos
-				// a mostrar est·n desordenados
+				// a mostrar est√°n desordenados
 				while(table.getTableHeaders().size() < tableColumn.colIndex()){
 					table.getTableHeaders().add(null);
 				}
@@ -171,12 +171,21 @@ public class DataTableBuilderImpl implements DataTableBuilder {
 					DataTableColumn tableColumn = f.getAnnotation(DataTableColumn.class);
 					try{
 						Object o = f.get(s);
+						if(o == null){
+							o = "";
+						}
 						element.setCellColor(tableColumn.cellColor());
 						element.setColIndex(String.valueOf(tableColumn.colIndex()));
 						element.setFontColor(tableColumn.fontColor());
 						if(f.getType().equals(Date.class)){
 							DateFormat format = new SimpleDateFormat(tableColumn.dateConversionPattern());
-							o = format.format((Date)o);
+							try{
+								if(o != null && !o.toString().equals("")){
+									o = format.format((Date)o);
+								}								
+							}catch(Exception e){
+								logger.error("Error processing instance field " + f.getName() + " with value "  + o + ": " + e.getMessage(), e);
+							}
 						}
 						if(!tableColumn.imgSrc().equals("")){
 							element.setImgSrc(true);
