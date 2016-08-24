@@ -10,7 +10,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 /**
- * @author DOIBALMI
+ * @author Mikel
  *
  */
 public class ScanPackageTest {
