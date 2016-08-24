@@ -6,7 +6,7 @@ package com.eej.utilities.datatables.test.model;
 import com.eej.utilities.annotation.DataTable;
 
 /**
- * @author DOIBALMI
+ * @author Mikel
  *
  */
 @DataTable(tableName="Class1")
