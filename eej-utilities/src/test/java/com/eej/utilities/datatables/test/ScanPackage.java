@@ -17,7 +17,7 @@ import org.apache.log4j.Logger;
 import com.eej.utilities.annotation.DataTable;
 
 /**
- * @author DOIBALMI
+ * @author Mikel
  *
  */
 public class ScanPackage {
