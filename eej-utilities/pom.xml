@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.eej.utilities</groupId>
   <artifactId>eej-utilities</artifactId>
-  <version>0.0.7-SNAPSHOT</version>
+  <version>0.0.8-SNAPSHOT</version>
   <name>eejUtilities</name>
   
   <properties>
@@ -46,4 +46,11 @@
         <version>${com.fasterxml.jackson.core-version}</version>
     </dependency>
   </dependencies>
+   <distributionManagement>
+  	<repository>
+  		<id>dbRepo</id>
+		<name>db-Distributed-Repo</name>
+		<url>file:///D:/Usuarios/doibalmi/Dropbox/mvnDbRepo/</url>
+  	</repository>
+  </distributionManagement>
 </project>
