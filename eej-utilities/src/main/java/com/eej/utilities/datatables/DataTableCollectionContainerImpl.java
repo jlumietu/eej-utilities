@@ -27,7 +27,9 @@ public class DataTableCollectionContainerImpl implements DataTableCollectionCont
 	
 	private Logger logger = Logger.getLogger(this.getClass());
 
+	@SuppressWarnings("unused")
 	private List<String> packagesToScan = null;
+	// TODO
 	
 	private Map<String, String> dataTableInstances = null;
 	
@@ -173,6 +175,7 @@ public class DataTableCollectionContainerImpl implements DataTableCollectionCont
 	 * @param keyForClass
 	 * @return
 	 */
+	@SuppressWarnings("unchecked")
 	public Class<? extends Serializable> getClass(String keyForClass) throws NoDataTableAnnotationException{
 		logger.debug("getClass(String keyForClass) = " + keyForClass);
 		if(!this.contains(keyForClass)){

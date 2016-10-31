@@ -43,7 +43,7 @@ public class DateUtilImpl implements DateUtil{
      * @param listaHorasCorte
      * @return
      */
-    private List<String> getDatesFor(Calendar now, int hora, List<Integer> listaHorasCorte){
+	protected List<String> getDatesFor(Calendar now, int hora, List<Integer> listaHorasCorte){
         List<String> result = new ArrayList<String>();
         for(int horaCorte: listaHorasCorte){
             logger.debug("Hora: " + hora + "; HoraCorte: " + horaCorte);
@@ -139,7 +139,7 @@ public class DateUtilImpl implements DateUtil{
      * @param horaCorte
      * @return
      */
-    private String tratarNoContratableEnFinde(Calendar now, int nowHour, int horaCorte){
+    protected String tratarNoContratableEnFinde(Calendar now, int nowHour, int horaCorte){
         if(horaCorte > nowHour){
             return this.avanzaHastaDiaNumeroEnLaSemana(now, Calendar.MONDAY, "-");
         }else{
@@ -152,7 +152,7 @@ public class DateUtilImpl implements DateUtil{
      * @param now
      * @return
      */
-    private String avanzaHastaMartes(Calendar now){
+    protected String avanzaHastaMartes(Calendar now){
     	//int numeroDiasASumarPorLunesFestivo = this.calcularDiferencialPorFestivos(now);
         //return this.avanzaHastaDiaNumeroEnLaSemana(now, Calendar.TUESDAY + numeroDiasASumarPorLunesFestivo);
     	
@@ -185,7 +185,7 @@ public class DateUtilImpl implements DateUtil{
      * @param numeroDiasASumar
      * @return
      */
-    private String avanzaHastaMartes(Calendar shipDate, int numeroDiasASumar) {
+    protected String avanzaHastaMartes(Calendar shipDate, int numeroDiasASumar) {
 		return this.avanzaHastaDiaNumeroEnLaSemana(shipDate, Calendar.TUESDAY + numeroDiasASumar);
 	}
 
@@ -194,7 +194,7 @@ public class DateUtilImpl implements DateUtil{
      * @param now
      * @return
      */
-    private String avanzaHastaMartes(Calendar now, String separator){
+    protected String avanzaHastaMartes(Calendar now, String separator){
         return this.avanzaHastaDiaNumeroEnLaSemana(now, Calendar.TUESDAY, separator);
     }
 
@@ -264,7 +264,7 @@ public class DateUtilImpl implements DateUtil{
      * @param limit
      * @return
      */
-    private String calcularDiferenciaTiempo(Calendar now, Calendar limit){
+    protected String calcularDiferenciaTiempo(Calendar now, Calendar limit){
         long timeLeft = limit.getTimeInMillis() - now.getTimeInMillis();
         logger.debug("timeLeft: " + timeLeft);
         long seconds = timeLeft / 1000;
@@ -349,7 +349,7 @@ public class DateUtilImpl implements DateUtil{
      * @param now
      * @return
      */
-    private int calcularDiferencialPorFestivos(Calendar now) {
+    protected int calcularDiferencialPorFestivos(Calendar now) {
 		int diferencial = 0;
 		do{
 			now.add(Calendar.DATE, 1);
