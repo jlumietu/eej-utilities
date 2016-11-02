@@ -6,7 +6,7 @@ package com.eej.utilities.model;
 import com.eej.utilities.ApplicationVersion;
 
 /**
- * @author jlumietu
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public class DefaultDataBaseResultCollection extends

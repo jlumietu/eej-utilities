@@ -12,7 +12,7 @@ import com.erax.principal.PrincipalSerializableId;
  * user session dependent model info must accomplish and link to any field
  * which is annotated with corresponding @DataTable dependendency annotation.
  * 
- * @author DOIBALMI
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public interface DataTableRowOwner extends PrincipalSerializableId, Serializable {

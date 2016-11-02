@@ -18,7 +18,7 @@ import org.apache.log4j.Logger;
 /**
  * Clase con utilidades para manejar fechas y horas, comparar etc.
  *
- * @author jlumietu
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  *
  */

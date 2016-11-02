@@ -4,7 +4,7 @@
 package com.eej.utilities.model.formsv2;
 
 /**
- * @author jlumietu
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public interface FormObject extends FormElement {

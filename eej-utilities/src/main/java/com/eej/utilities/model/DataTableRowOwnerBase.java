@@ -9,7 +9,7 @@ import com.eej.utilities.ApplicationVersion;
 import com.erax.principal.PrincipalSerializableId;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public class DataTableRowOwnerBase implements DataTableRowOwner {

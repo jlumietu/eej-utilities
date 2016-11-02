@@ -4,7 +4,7 @@
 package com.eej.utilities.annotation;
 
 /**
- * @author jlumietu
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public @interface FormLabel {

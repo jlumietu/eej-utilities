@@ -30,7 +30,7 @@ import com.eej.utilities.model.DataTableObject;
 import com.eej.utilities.model.DataTableResult;
 
 /**
- * @author jlumietu
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public class DataTableBuilderImpl implements DataTableBuilder {

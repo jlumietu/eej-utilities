@@ -7,7 +7,7 @@ import com.eej.utilities.model.DataBaseResultCollection;
 import com.eej.utilities.model.DataTablePaginationRequest;
 
 /**
- * @author jlumietu
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public interface DataTableBusinessEngine {

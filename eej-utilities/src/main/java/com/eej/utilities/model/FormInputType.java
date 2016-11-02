@@ -4,7 +4,7 @@
 package com.eej.utilities.model;
 
 /**
- * @author jlumietu
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public enum FormInputType {

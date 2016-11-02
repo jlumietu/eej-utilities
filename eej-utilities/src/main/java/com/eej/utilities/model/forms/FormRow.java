@@ -6,7 +6,7 @@ package com.eej.utilities.model.forms;
 import java.io.Serializable;
 
 /**
- * @author jlumietu
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public interface FormRow extends Serializable {

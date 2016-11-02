@@ -9,7 +9,7 @@ import java.util.Map;
 import com.eej.utilities.ApplicationVersion;
 
 /**
- * @author jlumietu
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public class FormInputSelectMap extends FormInputSelect implements Serializable {

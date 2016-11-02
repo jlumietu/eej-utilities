@@ -9,7 +9,7 @@ import com.eej.utilities.model.DataTableObject;
 import com.eej.utilities.model.DataBaseResultCollection;
 
 /**
- * @author jlumietu
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public interface DataTableBuilder {
