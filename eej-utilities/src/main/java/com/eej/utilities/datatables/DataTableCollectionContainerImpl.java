@@ -110,28 +110,32 @@ public class DataTableCollectionContainerImpl implements DataTableCollectionCont
 				tagModel.setAllowNewRowCreation(linkAnnotation.allowNewRowCreation());
 				// NO, en ese caso ver si tiene @DataTableRowLink!!!
 				if(linkAnnotation.allowNewRowCreation() && linkAnnotation.mappingEndPoint() != null){
-					String link = null;
+					StringBuilder link = new StringBuilder("");
 					for(Field f : clazz.getDeclaredFields()){
 						if (f.isAnnotationPresent(DataTableLinkParam.class)){
 							DataTableLinkParam linkParamAnnotation = f.getAnnotation(DataTableLinkParam.class);
 							if(linkParamAnnotation != null){
-								link = linkParamAnnotation.paramName();
+								// Modification, multiple DataTableLinkParam support in new row creation
+								if(link.length() > 0){
+									link.append("&");
+								}
+								link.append(linkParamAnnotation.paramName());
 								if(f.getType().isPrimitive()){
-									link = link.concat("=-1");
+									link.append("=-1");
 								}else{
-									link = link.concat("=null");
+									link.append("=null");
 								}
 							}
-						}
-						if(link != null){
-							break;
 						}
 					}
 					if(link != null && !link.equals("")){
 						if(linkAnnotation.includeTimestamp()){
-							link = link.concat("&ts=").concat(String.valueOf(System.currentTimeMillis()));
+							if(link.length() > 0){
+								link.append("&");
+							}
+							link.append("ts=").append(String.valueOf(System.currentTimeMillis()));
 						}
-						tagModel.setNewRowCreationUrlEndpoint(linkAnnotation.mappingEndPoint().concat("?").concat(link));
+						tagModel.setNewRowCreationUrlEndpoint(linkAnnotation.mappingEndPoint().concat("?").concat(link.toString()));
 					}
 				}
 			}
