@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
 @Retention(RUNTIME)
 @Target(FIELD)
 /**
- * @author DOIBALMI
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public @interface DataTableRowOwnerId {
